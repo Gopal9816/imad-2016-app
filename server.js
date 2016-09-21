@@ -90,10 +90,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/:articleName', function (req,res) {
-    //articleName == article-one i.e the : will convert the following text into an parameter(part of express framework)
-    var articleName = req.params.articleName; //parameter is entered into an object
+    //articleName == article-one/two/three i.e the : will convert the following text into an parameter(part of express framework)
+    var articleName= req.params.articleName; //parameter is entered into an object
     res.send(createTemplate(articles[articleName]));
-    //articles[articleName] == articles[article-one] 
+    //articles[articleName] == articles[article-one/two/three] 
     //here instead of sending the html file it will return the html template created by the function for the article given in the url
 });
 app.get('/article-two', function (req,res) {
