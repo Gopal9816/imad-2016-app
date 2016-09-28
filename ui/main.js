@@ -6,5 +6,5 @@ element.innerHTML = "This  is the text entered in main.js";
 //Making the image move around
 var img = document.getElementById("madi");
 img.onclick = function (){
-  img.style.marginLeft = '100p'x ;
+  img.style.marginLeft = '100px' ;
 };
