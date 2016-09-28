@@ -96,12 +96,6 @@ app.get('/:articleName', function (req,res) {
     //articles[articleName] == articles[article-one/two/three] 
     //here instead of sending the html file it will return the html template created by the function for the article given in the url
 });
-app.get('/article-two', function (req,res) {
-    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
-app.get('/article-three', function (req,res) {
-    res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
-});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
