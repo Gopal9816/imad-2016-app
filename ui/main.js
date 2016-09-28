@@ -1,5 +1,5 @@
 console.log('Loaded!');
-//changing the main text
+//changing the main text 
 var element = document.getElementById("text");
 element.onclick = function (){
 element.innerHTML = "This is the text entered in main.js";
@@ -7,7 +7,12 @@ element.innerHTML = "This is the text entered in main.js";
 //Making the image move around
 var img = document.getElementById("madi");
 var marginLeft = 0;
+function moveRight(){
+    marginLeft += 10;
+    img.style.marginLeft = marginLeft + "px";
+}
 img.onclick = function (){
   marginLeft += 10;
   img.style.marginLeft =marginLeft + "px" ;
 };
+var interval = setInterval(moveRight,100);
