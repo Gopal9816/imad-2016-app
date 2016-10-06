@@ -9,7 +9,7 @@ var text = document.getElementById("hd");
 var marginLeft = 0;
 function moveRight(){
     marginLeft += 5;
-    img.style.marginLeft = marginLeft + "px";
+    text.style.marginLeft = marginLeft + "px";
     if (marginLeft==100)
     {
         marginLeft=0;
