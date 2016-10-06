@@ -29,8 +29,7 @@ body {
 }
 h3 {
     font-family: "Book Antiqua3","Times New Roman",serif;
-    color: #6542f4 
+    color: #6542f4;
+    padding-bottom: 0;
 }
-hr {
-    padding-top: 0;
-}
+
