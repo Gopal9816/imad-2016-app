@@ -3,7 +3,7 @@ console.log('Loaded!');
 /*var element = document.getElementById("text");
 element.onclick = function (){
 element.innerHTML = "This is the text entered in main.js";
-};*/
+};
 //Making the image move around
 var text = document.getElementById("hd");
 var marginLeft = 0;
@@ -22,7 +22,7 @@ function moveRight(){
         
     }
 
-/*img.onclick = function (){
+img.onclick = function (){
   marginLeft += 10;
   img.style.marginLeft =marginLeft + "px" ;
 };
