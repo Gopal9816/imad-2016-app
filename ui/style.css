@@ -4,7 +4,7 @@ body {
 }
 
 .center {
-    text-align: center;
+    margin-left=200px;
 }
 
 .text-big {
@@ -32,4 +32,9 @@ h3 {
     color: #6542f4;
     padding-bottom: 0;
 }
-
+.img{
+    float:left;
+    color:#c9cacc;
+    max-width:200px;
+    text-align:center;
+}
