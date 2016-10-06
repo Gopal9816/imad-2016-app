@@ -3,15 +3,19 @@ console.log('Loaded!');
 /*var element = document.getElementById("text");
 element.onclick = function (){
 element.innerHTML = "This is the text entered in main.js";
-};
+};*/
 //Making the image move around
-var img = document.getElementById("madi");
+var text = document.getElementById("hd");
 var marginLeft = 0;
 function moveRight(){
     marginLeft += 5;
     img.style.marginLeft = marginLeft + "px";
+    if (marginLeft==100)
+    {
+        marginLeft=0;
+    }
 }
-img.onclick = function (){
+/*img.onclick = function (){
   marginLeft += 10;
   img.style.marginLeft =marginLeft + "px" ;
 };
