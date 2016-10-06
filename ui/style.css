@@ -37,4 +37,11 @@ h3 {
     color:#c9cacc;
     max-width:200px;
     text-align:center;
+    }
+.head{
+    font-family:"Lucida Grande",serif;
+    color:#0021f9;
+    font-size: 150%;
+    font-weight:bold;
+    margin-left:200px;
 }
