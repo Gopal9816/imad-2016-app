@@ -26,6 +26,7 @@ body {
    font-family: sans-serif;
    padding-left: 20px;
    padding-right: 20px;
+   padding-top:50px;
 }
 h3 {
     font-family: "Book Antiqua3","Times New Roman",serif;
@@ -37,12 +38,13 @@ h3 {
     color:#c9cacc;
     max-width:200px;
     text-align:center;
+    margin-top:50px;
     }
 .head{
     font-family:"Lucida Grande",serif;
     color:#0021f9;
     font-size: 150%;
     font-weight:bold;
-    margin-left:200px;
-    margin-top:0px;
+    text-align:center;
+    
 }
