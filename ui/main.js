@@ -15,6 +15,14 @@ function moveRight(){
         marginLeft=0;
     }
 }
+text.onclick = function(){
+    var i = 0;
+    while(i<1)
+    {
+        moveRight();
+        
+    }
+};
 /*img.onclick = function (){
   marginLeft += 10;
   img.style.marginLeft =marginLeft + "px" ;
