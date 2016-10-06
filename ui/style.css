@@ -31,19 +31,18 @@ body {
 h3 {
     font-family: "Book Antiqua3","Times New Roman",serif;
     color: #9500f9;
-    padding-bottom: 0;
 }
 .img{
     float:left;
     color:#c9cacc;
     max-width:200px;
     text-align:center;
-    padding-top:75px;
+    padding-top:85px;
     }
 .head{
     font-family:"Lucida Grande",serif;
     color:#0021f9;
-    font-size: 150%;
+    font-size: 300%;
     font-weight:bold;
     text-align:center;
     
