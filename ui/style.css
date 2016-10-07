@@ -15,14 +15,16 @@ body {
 .bold {
     font-weight: bold;
 }
-
-.img-medium {
-    height:100px;
+.image{
     float:left;
+    padding:30px 40px 85px 85px;
+}
+.img-medium {
+    height:auto;
     color:#c9cacc;
     max-width:200px;
     text-align:center;
-    padding:30px 40px 85px 85px;
+    
 }
 .container
 {
