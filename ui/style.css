@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     margin-top: 60px;
     background-image:url("traditional-wallpaper.jpg");
+    background-repeat:no-repeat;
 }
 
 .center {
