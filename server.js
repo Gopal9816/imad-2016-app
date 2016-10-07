@@ -107,8 +107,8 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/ui/traditional-wallpaper.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'traditional-wallpaper.jpg'));
+app.get('/ui/traditional-wallpaper1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'traditional-wallpaper1.jpg'));
 });
 app.get('/ui/pro_pic.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'pro_pic.jpg'));
