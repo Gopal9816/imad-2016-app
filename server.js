@@ -110,6 +110,9 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/ui/traditional-wallpaper.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'traditional-wallpaper.jpg'));
 });
+app.get('/ui/pro_pic.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pro_pic.jpg'));
+});
 var counter=0;
 app.get('/counter', function(req, res) {
     counter = counter+1;
