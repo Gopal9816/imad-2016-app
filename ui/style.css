@@ -23,7 +23,6 @@ body {
    max-width: 800px;
    margin: 0 auto;
    color: #4a4a4a;
-   font-family: sans-serif;
    padding-left: 20px;
    padding-right: 20px;
    padding-top:20px;
@@ -37,16 +36,19 @@ h3 {
     color:#c9cacc;
     max-width:200px;
     text-align:center;
-    padding-top:30px;
-    padding-left:85px;
-    padding-right:85px;
-    padding-bottom:40px;
+    padding:30px 40px 85px 85px;
     }
-.head{
+header{
     font-family:"Lucida Grande",serif;
     color:#0021f9;
     font-size: 300%;
     font-weight:bold;
     text-align:center;
+    
+}
+.profile{
+    color:white;
+    font-family: sans-serif;
+    
     
 }
