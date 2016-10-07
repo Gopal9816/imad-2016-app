@@ -17,6 +17,11 @@ body {
 
 .img-medium {
     height: 200px;
+    float:left;
+    color:#c9cacc;
+    max-width:200px;
+    text-align:center;
+    padding:30px 40px 85px 85px;
 }
 .container
 {
@@ -31,13 +36,7 @@ h3 {
     font-family: "Book Antiqua3","Times New Roman",serif;
     color: #9500f9;
 }
-.img{
-    float:left;
-    color:#c9cacc;
-    max-width:200px;
-    text-align:center;
-    padding:30px 40px 85px 85px;
-    }
+
 header{
     font-family:"Lucida Grande",serif;
     color:#0021f9;
