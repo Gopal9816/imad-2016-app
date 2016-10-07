@@ -108,7 +108,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/ui/bgrnd.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'traditional-wallpaper.png'));
+  res.sendFile(path.join(__dirname, 'ui', 'traditional-wallpaper.jpg'));
 });
 var counter=0;
 app.get('/counter', function(req, res) {
